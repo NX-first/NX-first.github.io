@@ -56,9 +56,23 @@ redirect_from:
 
 ## 🎓 教育经历 (Education)
 
-* **南京大学 (Nanjing University)** 博士研究生 | 地理学 | 2024.09 - 至今
-* **中国地质大学（武汉） (China University of Geosciences, Wuhan)** 硕士研究生 | 软件工程 | 2021.09 - 2024.06
-* **长江大学 (Yangtze University)** 工学学士 | 软件工程 | 2019.09 - 2023.06
+<table style="width:100%; border:none !important; border-collapse:collapse; margin-top:10px; font-size: 0.95em;">
+  <tr style="border:none !important;">
+    <td style="width:55%; border:none !important; padding: 6px 0;"><strong>南京大学 (Nanjing University)</strong> 博士研究生</td>
+    <td style="width:25%; border:none !important; padding: 6px 0;">地理学</td>
+    <td style="width:20%; border:none !important; padding: 6px 0; text-align:right;">2024.09 - 至今</td>
+  </tr>
+  <tr style="border:none !important;">
+    <td style="width:55%; border:none !important; padding: 6px 0;"><strong>中国地质大学（武汉） (CUG)</strong> 硕士研究生</td>
+    <td style="width:25%; border:none !important; padding: 6px 0;">软件工程</td>
+    <td style="width:20%; border:none !important; padding: 6px 0; text-align:right;">2021.09 - 2024.06</td>
+  </tr>
+  <tr style="border:none !important;">
+    <td style="width:55%; border:none !important; padding: 6px 0;"><strong>长江大学 (Yangtze University)</strong> 工学学士</td>
+    <td style="width:25%; border:none !important; padding: 6px 0;">软件工程</td>
+    <td style="width:20%; border:none !important; padding: 6px 0; text-align:right;">2019.09 - 2023.06</td>
+  </tr>
+</table>
 
 ---
 
