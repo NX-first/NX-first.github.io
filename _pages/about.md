@@ -50,7 +50,7 @@ redirect_from:
 
 ### 审稿中/在撰写成果 (Working Papers)
 
-* Liang, Q.*, **Ni, X.**, Liu, X. et al. **Global Ocean Methane Seepage Flux Based on Submarine Observation of South China Sea Combine with Machine Learning**. *(Under Review in **Nature Communications** / NC)*
+* Liang, Q.*, **Ni, X.**, Liu, X. et al. **Global Ocean Methane Seepage Flux Based on Submarine Observation of South China Sea Combine with Machine Learning**. *(Under Review)*
 
 ---
 
