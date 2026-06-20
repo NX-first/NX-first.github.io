@@ -7,7 +7,7 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "NanJing-CN"
+locale                   : "zh-CN"
 site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "NiXin / Personal Homepage"
 title_separator          : "-"
@@ -23,7 +23,7 @@ repository               : "nx-first/nx-first.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Ni.jpg"
+  avatar           : "Ni001.jpg"
   name             : "倪鑫（Ni Xin）"
   pronouns         : # example: "she/her"  
   bio              : "博士研究生，专注于人工智能在海洋地理的应用研究。"
