@@ -50,11 +50,19 @@ redirect_from:
 
 ### 审稿中/在撰写成果 (Working Papers)
 
-* **Xin Ni**, Qianyong Liang*, Xiuguo Liu et al. **Global Ocean Methane Seepage Flux Based on Submarine Observation of South China Sea Combine with Machine Learning**. *(Under Review in **Geophysical Research Letters** / GRL)*
+* Liang, Q.*, **Ni, X.**, Liu, X. et al. **Global Ocean Methane Seepage Flux Based on Submarine Observation of South China Sea Combine with Machine Learning**. *(Under Review in **Nature Communications** / NC)*
 
 ---
 
 ## 🎓 教育经历 (Education)
 
-* **南京大学** | 地理学（博士研究生） | 2024.09 - 至今
-* **中国地质大学（武汉）** | 软件工程（硕士研究生） | 2021.09 - 2024.06
+* **南京大学 (Nanjing University)** 博士研究生 | 地理学 | 2024.09 - 至今
+* **中国地质大学（武汉） (China University of Geosciences, Wuhan)** 硕士研究生 | 软件工程 | 2021.09 - 2024.06
+* **长江大学 (Yangtze University)** 工学学士 | 软件工程 | 2019.09 - 2023.06
+
+---
+
+## 🆔 学术凭证 (Academic Identifiers)
+
+* **ORCID**: [0009-0004-6477-212X](https://orcid.org/0009-0004-6477-212X)
+* **Google Scholar**: [Xin Ni](https://scholar.google.com/citations?user=1kRdCocAAAAJ&hl=en)
