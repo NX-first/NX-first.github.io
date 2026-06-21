@@ -11,20 +11,20 @@ main:
   - title: "成果发表"
     url: /publications/
 
-  # - title: "出海科考实录"
-  # url: /talks/    
+  - title: "出海科考实录"
+    url: /talks/    
 
-  # title: "荣誉与获奖"
-  # url: /teaching/    
+  - title: "荣誉与获奖"
+    url: /teaching/    
     
   # title: "Portfolio"
   # url: /portfolio/
         
-  - title: "出海科考实录"
-    url: /year-archive/
+  # title: "出海科考实录"
+  # url: /year-archive/
         
-  - title: "荣誉与获奖"
-    url: /markdown/
+  # title: "荣誉与获奖"
+  # url: /markdown/
     
   - title: "CV"
     url: https://nx-first.github.io/%E5%80%AA%E9%91%AB_CV_2026.06.pdf
