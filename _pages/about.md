@@ -11,6 +11,8 @@ redirect_from:
 
 硕士毕业于**中国地质大学（武汉）地理与信息工程学院**软件工程专业，导师为**刘修国教授**与**梁前勇教授**。
 
+本科毕业于**长江大学计算机科学学院**软件工程专业，导师为**宋文广教授**与**郑健教授**。
+
 主要研究方向为 **人工智能与海洋地理学（AI + Marine Geography）**、空间时空大数据挖掘、海底甲烷冷泉渗漏机制。致力于利用先进的**机器学习与深度学习算法**解决复杂深海地质与碳循环关键科学问题，具备多次随国家航次出海科考与野外极端环境作业经验。
 
 ---
@@ -60,12 +62,12 @@ redirect_from:
   <tr style="border:none !important;">
     <td style="width:55%; border:none !important; padding: 6px 0;"><strong>南京大学 (Nanjing University)</strong> 博士研究生</td>
     <td style="width:25%; border:none !important; padding: 6px 0;">地理学</td>
-    <td style="width:20%; border:none !important; padding: 6px 0; text-align:right;">2024.09 - 至今</td>
+    <td style="width:20%; border:none !important; padding: 6px 0; text-align:right;">2026.06 - 至今</td>
   </tr>
   <tr style="border:none !important;">
     <td style="width:55%; border:none !important; padding: 6px 0;"><strong>中国地质大学（武汉） (CUG)</strong> 硕士研究生</td>
     <td style="width:25%; border:none !important; padding: 6px 0;">软件工程</td>
-    <td style="width:20%; border:none !important; padding: 6px 0; text-align:right;">2021.09 - 2024.06</td>
+    <td style="width:20%; border:none !important; padding: 6px 0; text-align:right;">2023.06 - 2026.06</td>
   </tr>
   <tr style="border:none !important;">
     <td style="width:55%; border:none !important; padding: 6px 0;"><strong>长江大学 (Yangtze University)</strong> 工学学士</td>
