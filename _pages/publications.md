@@ -5,11 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap" style="margin-bottom: 20px;">
-    📊 您也可以在我的 <a href="{{site.author.googlescholar}}">Google Scholar Profile</a> 上查看完整的论文引用情况。
-  </div>
-{% endif %}
+<div class="wordwrap" style="margin-bottom: 20px;">
+  📊 您也可以在我的 <a href="https://scholar.google.com/citations?user=1kRdCocAAAAJ&hl=en">Google Scholar Profile</a> 上查看完整的论文引用情况。
+</div>
 
 ---
 
