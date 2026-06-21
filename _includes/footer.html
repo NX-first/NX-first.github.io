@@ -1,45 +1,40 @@
 {% include base_path %}
 
-{% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
 <div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-    {% endif %}
+  <ul class="social-icons" style="position: relative; margin: 0; padding: 0; list-style: none;">
+    <!-- 1. 关注标签 -->
+    <li style="display: inline-block; vertical-align: middle; margin-right: 10px;"><strong>关注:</strong></li>
+    
+    <!-- 2. GitHub 链接 -->
     {% if site.author.github %}
-      <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+      <li style="display: inline-block; vertical-align: middle; margin-right: 15px;"><a href="https://github.com/{{ site.author.github }}" style="color: #999; text-decoration: none; font-weight: 700; font-size: 15px;"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
     {% endif %}
-    {% if site.author.bitbucket %}
-      <li><a href="https://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
-    {% endif %}
-    {% if site.atom_feed.hide != true %}
-    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
-    {% endif %}
-  </ul>
-</div>
-{% endif %}
 
-<!-- ==================== 倪鑫同学定制：点击弹出微信二维码组件 ==================== -->
-<div style="text-align: center; margin: 25px 0 15px 0;">
-  <details style="display: inline-block; cursor: pointer; user-select: none;">
-    <summary style="background-color: #2b7a78; color: white; padding: 10px 24px; border-radius: 25px; font-weight: bold; list-style: none; outline: none; box-shadow: 0 4px 6px rgba(0,0,0,0.15); transition: all 0.3s; font-family: sans-serif;">
-      💬 联系我 (Contact Me)
-    </summary>
-    <div style="margin-top: 15px; padding: 12px; background: #fff; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.2); display: inline-block; border: 1px solid #eee;">
-      <img src="/images/wechat_qr.jpg" alt="微信二维码" style="width: 180px; height: 180px; display: block; margin: 0 auto; border-radius: 6px;">
-      <p style="color: #333; font-size: 0.85em; margin: 8px 0 0 0; font-family: sans-serif; font-weight: 500;">扫一扫微信二维码与我联系</p>
-    </div>
-  </details>
+    <!-- ==================== 倪鑫同学定制：完美替代 RSS 的微信“联系我”组件 ==================== -->
+    <li style="display: inline-block; vertical-align: middle;">
+      <details class="wechat-popup-details" style="display: inline-block; cursor: pointer; user-select: none; position: relative;">
+        <summary style="background: none; color: #999; list-style: none; outline: none; font-size: 15px; font-weight: 700; transition: color 0.2s; font-family: sans-serif;">
+          <i class="fab fa-weixin" style="color: #1cc053; margin-right: 3px;"></i> 联系我
+        </summary>
+        <!-- 弹窗图片容器：使用绝对定位，往上弹出，绝对不撑坏原本的版权布局 -->
+        <div style="position: absolute; bottom: 30px; left: -40px; z-index: 999; padding: 10px; background: #fff; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.4); width: 150px; border: 1px solid #ddd;">
+          <img src="/images/wechat_qr.jpg" alt="微信二维码" style="width: 130px; height: 130px; display: block; margin: 0 auto; border-radius: 4px;">
+          <p style="color: #333; font-size: 11px; margin: 5px 0 0 0; text-align: center; font-weight: normal; font-family: sans-serif; line-height: 1.2;">扫码与我联系</p>
+        </div>
+      </details>
+    </li>
+    <!-- ======================================================================= -->
+  </ul>
 </div>
 
 <style>
-  /* 隐藏系统自带的隐藏/展开小箭头 */
-  details summary::-webkit-details-marker { display: none; }
-  details summary { list-style: none; }
-  /* 鼠标悬浮在按钮上的炫酷动画效果 */
-  details summary:hover { background-color: #175856 !important; transform: translateY(-2px); }
+  /* 隐藏系统自带的 html 展开小箭头（兼容各种浏览器） */
+  .wechat-popup-details summary::-webkit-details-marker { display: none; }
+  .wechat-popup-details summary { list-style: none; }
+  /* 鼠标悬浮在“联系我”和 GitHub 上时同步变亮，达到一模一样的动态视觉效果 */
+  .wechat-popup-details summary:hover { color: #fff !important; }
+  .page__footer-follow a:hover { color: #fff !important; }
 </style>
-<!-- ======================================================================= -->
 
 <div class="page__footer-copyright">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
