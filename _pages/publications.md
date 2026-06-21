@@ -7,7 +7,7 @@ author_profile: true
 
 {% if site.author.googlescholar %}
   <div class="wordwrap" style="margin-bottom: 20px;">
-    📊 您也可以在我的 <a href="{{site.author.googlescholar}}">Google Scholar Profile</a> 上查看完整的论文引用情况。
+    📊 您也可以在我的 <a href=" ">Google Scholar Profile</a > 上查看完整的论文引用情况。
   </div>
 {% endif %}
 
@@ -21,7 +21,7 @@ author_profile: true
 * **作者顺序**: **Ni, X.**, Li, J., Xu, J., Shen, Y., Liu, X*.
 * **论文核心**: 该研究构建了一个结合灰色关联分析（GRA）与多准则决策分析（MCDA）的全新耦合模型，用于城市地下空间开发地质环境的适宜性评价。
 * **我的核心贡献**: 负责分析地下空间规划建设与地质环境背景的相互作用，识别并定量化影响地下空间资源的关键地质环境要素。
-* **跳转链接**: [[Paper 链接](https://doi.org/10.1016/j.enggeo.2024.107608)]
+* **跳转链接**: [Paper 链接](https://doi.org/10.1016/j.enggeo.2024.107608)
 
 ---
 
@@ -31,7 +31,7 @@ author_profile: true
 * **作者顺序**: **Ni, X.**, Liu, X., Pang, S., Dong, Y., Guo, B., Zhang, Y., ... Liang, Q*.
 * **论文核心**: 基于全球尺度编录了海洋甲烷渗漏的时空分布图谱，并首次深入探讨了全球洋流动力学对深海甲烷冷泉渗漏的宏观控制机制。
 * **我的核心贡献**: 全面负责全球海洋甲烷渗漏大数据的收集、时空模式挖掘以及与洋流数据的关联分析工作。
-* **跳转链接**: [[Paper 链接](https://doi.org/10.1016/j.margeo.2025.107589)]
+* **跳转链接**: [Paper 链接](https://doi.org/10.1016/j.margeo.2025.107589)
 
 ---
 
@@ -41,7 +41,7 @@ author_profile: true
 * **作者顺序**: **倪鑫**, 梁前勇*, 刘修国 等.
 * **论文核心**: 系统综述了深海甲烷在水体及沉积物中的运移、扩散与转化机制，并对全球变暖背景下冷泉系统的演化及生态环境影响进行了前瞻性展望。
 * **我的核心贡献**: 独立完成全文核心文献的检索、大纲撰写、关键机制图绘制以及全稿的撰写工作。
-* **跳转链接**: [[录用通知/期刊主页](http://www.earth-science.net/)]
+* **跳转链接**: [录用通知/期刊主页](http://www.earth-science.net/)
 
 ---
 
@@ -51,7 +51,7 @@ author_profile: true
 * **作者顺序**: [合作者], **Ni, X.**, ... [等]. (第五作者)
 * **论文核心**: 提出了一种基于时空特征融合的隧道掘进机（TBM）掘进参数多变量实时预测深度学习模型，有效提升了复杂地质下工程掘进的安全性。
 * **我的核心贡献**: 负责设计时空特征融合网络架构，编写核心预测算法代码，并利用实际工程大数据进行了模型训练与调优。
-* **跳转链接**: [[Paper 链接](https://doi.org/10.1016/j.tust.2023.105476)]
+* **跳转链接**: [Paper 链接](https://doi.org/10.1016/j.tust.2023.105476)
 
 ---
 
@@ -61,15 +61,4 @@ author_profile: true
 * **作者顺序**: [合作者], **Ni, X.**, ... [等]. (第八作者)
 * **论文核心**: 深入探讨了深海冷泉沉积物核心中铁结合有机碳（Fe-OC）的地球化学特征，揭示了甲烷厌氧氧化（AOM）过程对碳固持与循环的响应机制。
 * **我的核心贡献**: 负责冷泉沉积物多维空间地球化学数据的建模分析，并利用机器学习算法定量评估了 AOM 速率对铁结合碳形态演变的贡献。
-* **跳转链接**: [[Paper 链接](https://doi.org/10.1016/j.scitotenv.2023.167412)]
-
----
-
-## 🔬 审稿中成果 (Under Review)
-
-### 6. Global Ocean Methane Seepage Flux Based on Submarine Observation of South China Sea Combine with Machine Learning
-
-* **在投期刊**: *Nature Communications* (NC) 在投
-* **作者顺序**: Liang, Q.*, **Ni, X.**, Liu, X. et al.
-* **论文核心**: 结合南海“海马冷泉”的第一手海底原位潜标观测数据，首次利用机器学习方法对全球海洋甲烷渗漏通量进行了高精度的反演与估算。
-* **我的核心贡献**: 独立编写机器学习数据处理流水线，清洗高噪声的多模态水文、温盐深（CTD）大数据，并构建了通量预测的核心算法模型。
+* **跳转链接**: [Paper 链接](https://doi.org/10.1016/j.scitotenv.2023.167412)
