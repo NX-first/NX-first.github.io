@@ -36,7 +36,9 @@
   .page__footer-follow a:hover { color: #fff !important; }
 </style>
 
-<div class="page__footer-copyright">
-  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
-  Site last updated {{ "now" | date: '%Y-%m-%d' }}, <a href="/sitemap/" style="text-transform: uppercase;">{{ site.data.ui-text[site.locale].site_map | default: "Sitemap" }}</a>
+<div class="page__footer-copyright" style="line-height: 1.6;">
+  &copy; 2024-{{ site.time | date: '%Y' }} 倪鑫 (Xin Ni). 保留所有权利 (All Rights Reserved).<br />
+  <span style="color: #f25c54; font-weight: bold;"><i class="fas fa-exclamation-circle"></i> 声明：</span>本站所有学术成果、出海科考实录及荣誉资质照片均为个人原创，未经授权禁止以任何形式抓取、盗用、转载或用于商业及学术用途。<br />
+  技术支持: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>. 
+  更新于: {{ "now" | date: '%Y-%m-%d' }}
 </div>
