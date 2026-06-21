@@ -37,12 +37,12 @@ author_profile: true
   <!-- 第三排：证书 5 和 证书 6 -->
   <tr style="border:none !important;">
     <td style="width:50%; border:none !important; padding:15px; vertical-align:top;">
-      <img src="/images/cert_05.jpg" alt="硕士阶段荣誉" style="width:100%; border-radius:8px; border:1px solid #ddd; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-      <p style="margin-top:8px; font-size:0.95em; line-height:1.5;"><strong>5. 十大标兵研究书 / 中国地质大学五四青年奖章</strong><br><span style="color:#666;">硕士就读于中国地质大学（武汉）期间表现优异，综合绩点名列前茅，获评标兵研究书，融合校级五四青年奖章。</span></p>
+      <img src="/images/cert_06.jpg" alt="硕士阶段荣誉" style="width:100%; border-radius:8px; border:1px solid #ddd; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+      <p style="margin-top:8px; font-size:0.95em; line-height:1.5;"><strong>5. 十大标兵研究生 / 中国地质大学五四青年奖章</strong><br><span style="color:#666;">硕士就读于中国地质大学（武汉）期间表现优异，综合绩点名列前茅，获评标兵研究书，融合校级五四青年奖章。</span></p>
     </td>
     <td style="width:50%; border:none !important; padding:15px; vertical-align:top;">
-      <img src="/images/cert_06.jpg" alt="优秀党员" style="width:100%; border-radius:8px; border:1px solid #ddd; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-      <p style="margin-top:8px; font-size:0.95em; line-height:1.5;"><strong>6. 获奖照片</strong><br><span style="color:#666;">评选为2026年中国地质大学（武汉）地理与信息工程学院年度人物，并代表毕业生做毕业发言。</span></p>
+      <img src="/images/cert_05.jpg" alt="优秀党员" style="width:100%; border-radius:8px; border:1px solid #ddd; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+      <p style="margin-top:8px; font-size:0.95em; line-height:1.5;"><strong>6. 毕业生发言</strong><br><span style="color:#666;">评选为2026年中国地质大学（武汉）地理与信息工程学院年度人物，并代表毕业生做毕业发言。</span></p>
     </td>
   </tr>
 </table>
