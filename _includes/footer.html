@@ -19,6 +19,28 @@
 </div>
 {% endif %}
 
+<!-- ==================== 倪鑫同学定制：点击弹出微信二维码组件 ==================== -->
+<div style="text-align: center; margin: 25px 0 15px 0;">
+  <details style="display: inline-block; cursor: pointer; user-select: none;">
+    <summary style="background-color: #2b7a78; color: white; padding: 10px 24px; border-radius: 25px; font-weight: bold; list-style: none; outline: none; box-shadow: 0 4px 6px rgba(0,0,0,0.15); transition: all 0.3s; font-family: sans-serif;">
+      💬 联系我 (Contact Me)
+    </summary>
+    <div style="margin-top: 15px; padding: 12px; background: #fff; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.2); display: inline-block; border: 1px solid #eee;">
+      <img src="/images/wechat_qr.jpg" alt="微信二维码" style="width: 180px; height: 180px; display: block; margin: 0 auto; border-radius: 6px;">
+      <p style="color: #333; font-size: 0.85em; margin: 8px 0 0 0; font-family: sans-serif; font-weight: 500;">扫一扫微信二维码与我联系</p>
+    </div>
+  </details>
+</div>
+
+<style>
+  /* 隐藏系统自带的隐藏/展开小箭头 */
+  details summary::-webkit-details-marker { display: none; }
+  details summary { list-style: none; }
+  /* 鼠标悬浮在按钮上的炫酷动画效果 */
+  details summary:hover { background-color: #175856 !important; transform: translateY(-2px); }
+</style>
+<!-- ======================================================================= -->
+
 <div class="page__footer-copyright">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
   Site last updated {{ "now" | date: '%Y-%m-%d' }}, <a href="/sitemap/" style="text-transform: uppercase;">{{ site.data.ui-text[site.locale].site_map | default: "Sitemap" }}</a>
