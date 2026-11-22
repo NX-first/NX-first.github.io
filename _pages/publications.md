@@ -14,3 +14,7 @@ author_profile: true
 ## 📑 期刊论文 (Journal Articles)
 
 {% include orcid-publications.html details=true %}
+
+## 公开数据集 (Published Datasets)
+
+{% include research-datasets.html %}
