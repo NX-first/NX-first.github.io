@@ -1,0 +1,22 @@
+{% assign orcid_url = site.author.orcid %}
+<div data-orcid-id="{{ orcid_url | split: '/' | last | escape }}">
+  <ol data-orcid-works>
+    {% for work in site.data.orcid_publications %}
+    <li data-work-key="{{ work.doi | downcase | escape }}">
+      <a data-work-title href="https://doi.org/{{ work.doi | escape }}">{{ work.title | escape }}</a>
+      <span data-work-citation> · <em>{{ work.journal | escape }}</em> ({{ work.year }})</span>
+      {% if include.details %}
+      <p>{{ work.authors | join: ', ' | escape }}</p>
+      {% if work.summary %}<p><strong>论文核心</strong> {{ work.summary | escape }}</p>{% endif %}
+      {% if work.contribution %}<p><strong>我的核心贡献</strong> {{ work.contribution | escape }}</p>{% endif %}
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+  <p data-orcid-empty hidden>ORCID 暂无公开期刊论文。</p>
+  <template data-orcid-work>
+    <li><a data-work-title></a><span data-work-citation></span></li>
+  </template>
+  <p><a href="{{ orcid_url | escape }}">ORCID 公开成果</a></p>
+</div>
+<script src="{{ '/assets/js/orcid-publications.js' | relative_url }}" defer></script>

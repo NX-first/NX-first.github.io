@@ -46,9 +46,7 @@ redirect_from:
 
 ### 期刊论文 (Journal Articles)
 
-1. **Ni, X.**, Li, J., Xu, J., Shen, Y., Liu, X*. (2024). **Grey relation analysis and multiple criteria decision analysis method model for suitability evaluation of underground space development**. ***Engineering Geology***, 338, 107608. (中科院1区 TOP, IF: 8.4)
-2. **Ni, X.**, Liu, X., Pang, S., Dong, Y., Guo, B., Zhang, Y., ... Liang, Q*. (2025). **Global marine methane seepage: spatiotemporal patterns and ocean current control**. ***Marine Geology***, 487, 107589. (中科院2区, IF: 2.2)
-3. **倪鑫**, 梁前勇*, 刘修国 等. (202X). **海洋甲烷运移扩散机制及环境影响研究进展与展望**. ***地球科学***. (中文 EI, 已录用/正刊)
+{% include orcid-publications.html %}
 
 ### 审稿中/在撰写成果 (Working Papers)
 
